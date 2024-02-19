@@ -1,0 +1,19 @@
+/*color*/
+/* 
+60% of #594D3E - Dominant
+30% of #E0DDCC - Secondary
+10% of #58593E - Accent
+*/
+
+:root {
+
+    /* var(--dominantColor) !important; */
+    --dominantColor: #594D3E;
+
+    /* var(--secondaryColor) !important; */
+    --secondaryColor: #E0DDCC;
+
+    /* var(--accentColor) !important; */
+    --accentColor: #58593E;
+
+}
