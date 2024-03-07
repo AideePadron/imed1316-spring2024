@@ -22,7 +22,7 @@
     /*absolute, relative, fixed*/
     top: 10px;
     left: 10px;
-    visability: visable;
+    visibility: visable;
     /*visable, hidden*/
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, .35);
     /*horizontal, vertical, blur, spread, color*opacity*/
@@ -50,7 +50,7 @@
     /*absolute, relative, fixed*/
     top: 10px;
     left: 10px;
-    visability: visable;
+    visibility: visable;
     /*visable, hidden*/
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, .35);
     /*horizontal, vertical, blur, spread, color*opacity*/
