@@ -26,7 +26,7 @@
     /*visable, hidden*/
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, .35);
     /*horizontal, vertical, blur, spread, color*opacity*/
-    z-index: 1;
+    z-index: 9999999999;
     display: inline-block;
     /* none, block, inline-block*/
 }
