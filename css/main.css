@@ -20,3 +20,10 @@ h2 {
     padding-bottom: 0px;
     background-color: #ffffff;
 }
+
+#top-logo-small {
+
+    font-size: 29px;
+    font-family: "EB Garamond", serif;
+    color: var(--dominantColor) !important;
+}
