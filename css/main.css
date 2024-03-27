@@ -75,6 +75,24 @@ h2 {
 
 }
 
+.fa-social-media,
+.fa-social-media a {
+    font-size: 25px !important;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
 
