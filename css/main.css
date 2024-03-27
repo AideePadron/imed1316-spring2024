@@ -11,17 +11,18 @@ h2 {
     color: var(--accentColor) !important;
 }
 
-
+/* hamburger menu and camera */
 .top-logo {
     height: auto;
     font-weight: bold;
-    color: var(--dominantColor) !important;
+    color: pink;
     font-size: 55px;
     padding-top: 40px;
     padding-bottom: 0px;
     background-color: #ffffff;
 }
 
+/* top right "aidees flower shop" */
 #top-logo-small {
 
     font-size: 29px;
@@ -29,6 +30,7 @@ h2 {
     color: var(--dominantColor) !important;
 }
 
+/*  */
 .material-symbols-outlined,
 .material-symbols-outlined a {
     font-size: 60px;
@@ -38,28 +40,33 @@ h2 {
     text-decoration: none;
 }
 
+/*  */
 .navbar {
     background-color: var(--secondaryColor) !important;
 
 }
 
+/*  */
 .nav-link {
     font-size: 20px !important;
     color: #ffffff !important;
 }
 
+/*  */
 .nav-link:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
 
 }
 
+/*  */
 .footer-row {
     background-color: var(--dominantColor) !important;
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
+/*  */
 .footer-row a {
     color: #ffffff;
     font-weight: bold;
