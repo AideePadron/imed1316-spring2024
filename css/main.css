@@ -83,7 +83,7 @@ h2 {
     padding-right: 12px;
 }
 
-/**/
+/* styles testimonial text*/
 blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -96,7 +96,7 @@ blockquote {
 
 }
 
-/**/
+/* adds quotation marks*/
 blockquote:before {
     display: block;
     padding-left: 10px;
@@ -108,7 +108,7 @@ blockquote:before {
     color: var(--accentColor) !important;
 }
 
-/**/
+/* cite tag inside of blockquote*/
 blockquote cite {
     color: var(--accentColor) !important;
     font-size: 14px;
@@ -116,20 +116,20 @@ blockquote cite {
     margin-top: 5px;
 }
 
-/**/
+/* adds a dash */
 blockquote cite:before {
     content: "\2014 \2009";
 
 }
 
-/**/
-.btn-success {
+/* styles bootstrap button*/
+.btn-outline-success {
     background-color: var(--dominantColor) !important;
     border: 0px !important;
     border: none !important;
 }
 
-/**/
+/*styles bootstrap button*/
 .btn-primary {
     background-color: var(--secondaryColor) !important;
     border: 0px !important;
