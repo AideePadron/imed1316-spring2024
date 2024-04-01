@@ -75,6 +75,7 @@ h2 {
 
 }
 
+/*styles social media icons*/
 .fa-social-media,
 .fa-social-media a {
     font-size: 25px !important;
@@ -82,6 +83,7 @@ h2 {
     padding-right: 12px;
 }
 
+/**/
 blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -94,6 +96,7 @@ blockquote {
 
 }
 
+/**/
 blockquote:before {
     display: block;
     padding-left: 10px;
@@ -105,6 +108,7 @@ blockquote:before {
     color: var(--accentColor) !important;
 }
 
+/**/
 blockquote cite {
     color: var(--accentColor) !important;
     font-size: 14px;
@@ -112,17 +116,20 @@ blockquote cite {
     margin-top: 5px;
 }
 
+/**/
 blockquote cite:before {
     content: "\2014 \2009";
 
 }
 
+/**/
 .btn-success {
     background-color: var(--dominantColor) !important;
     border: 0px !important;
     border: none !important;
 }
 
+/**/
 .btn-primary {
     background-color: var(--secondaryColor) !important;
     border: 0px !important;
