@@ -32,3 +32,8 @@
     margin: auto;
     text-align: center;
 }
+
+.content-table thead tr th {
+    background-color: var(--dominantColor) !important;
+    color: #ffffff;
+}
