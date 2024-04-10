@@ -33,7 +33,8 @@
     text-align: center;
 }
 
-.content-table thead tr th {
+.content-table thead tr th,
+.content-table thead tr td {
     background-color: var(--dominantColor) !important;
     color: #ffffff;
 }
