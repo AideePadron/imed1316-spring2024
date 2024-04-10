@@ -56,4 +56,6 @@
     background-color: red;
 }
 
-.content-table
+.content-table tfoot tr:last-of-type {
+    border-bottom: 3px solid var(--dominantColor) !important;
+}
