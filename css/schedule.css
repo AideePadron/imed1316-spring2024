@@ -37,3 +37,9 @@
     background-color: var(--dominantColor) !important;
     color: #ffffff;
 }
+
+.content-table th,
+.content-table td {
+    padding: 12px;
+
+}
