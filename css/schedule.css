@@ -53,7 +53,7 @@
 }
 
 .content-table tbody tr:nth-of-type(odd) {
-    background-color: red !important;
+    background-color: red;
 }
 
 .content-table tfoot tr:last-of-type {
