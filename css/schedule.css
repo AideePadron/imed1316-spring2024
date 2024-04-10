@@ -49,11 +49,11 @@
 }
 
 .content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #f3f3f3 !important;
 }
 
 .content-table tbody tr:nth-of-type(odd) {
-    background-color: red;
+    background-color: red !important;
 }
 
 .content-table tfoot tr:last-of-type {
