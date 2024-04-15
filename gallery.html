@@ -33,7 +33,9 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
+    <!--nanogallery2 CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
+        type="text/css">
     <!--Local CSS-->
     <link href="css/gallery.css" rel="stylesheet" />
 
@@ -126,6 +128,18 @@
     </header>
 
     <main>
+        <div ID="blinn-gallery" data-nanogallery2='{
+            "itemsBaseURL": "http://nanogallery2.nanostudio.org/samples/",
+            "thumbnailWidth": "200",
+            "thumbnailLabel": {
+              "position": "overImageOnBottom"
+            },
+            "thumbnailAlignment": "center",
+            "thumbnailOpenImage": true
+          }'>
+            <a href="berlin1.jpg" data-ngthumb="berlin1t.jpg" data-ngdesc="">Berlin 1</a>
+            <a href="berlin2.jpg" data-ngthumb="berlin2t.jpg" data-ngdesc="">Berlin 2</a>
+            <a href="berlin3.jpg" data-ngthumb="berlin3t.jpg" data-ngdesc="">Berlin 3</a>
 
     </main>
 
@@ -199,6 +213,9 @@
 
         <!-- Isotope Filter JS CDN -->
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        <!--nanogallery2 js cdn -->
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
         <!--Local JS-->
         <script src="js/gallery.js"></script>
