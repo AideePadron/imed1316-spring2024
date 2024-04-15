@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 
     $("#blinn-gallery").nanogallery2({
-        thumbnailWidth: "300",
+        thumbnailWidth: "450",
         thumbnailHeight: "auto",
         thumbnailBorderVertical: 0,
         thumbnailBorderHorizontal: 0,
