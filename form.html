@@ -141,43 +141,43 @@
                     <!--Full Name - text Field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="full-name">Full Name</label>
-                        <input type="text" name="fullName" id="full-name" required />
+                        <input type="text" name="fullName" id="full-name" required class="form-control" />
                     </div>
 
                     <!--Age - number field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="age">Ages</label>
-                        <input type="number" name="age" id="age" min="18" max="110" />
+                        <input type="number" name="age" id="age" min="18" max="110" class="form-control" />
                     </div>
 
                     <!--Email - email field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required />
+                        <input type="email" id="email" name="email" required class="form-control" />
                     </div>
 
                     <!--phone - tel field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="phone">Phone (optional) </label>
-                        <input type="tel" id="phone" name="phone" />
+                        <input type="tel" id="phone" name="phone" class="form-control" />
                     </div>
 
                     <!--Social media - url field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="social-media">Social Media</label>
-                        <input type="url" id="social-media" name="url" />
+                        <label for="social-media">Social Media (optional)</label>
+                        <input type="url" id="social-media" name="url" class="form-control" />
                     </div>
 
                     <!--start date - date field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="start-date">Start Date</label>
-                        <input type="date" name="startDate" id="start-date" required />
+                        <input type="date" name="startDate" id="start-date" required class="form-control" />
                     </div>
 
                     <!--Tsize - select (dropdown)-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="t-shirt">T-shirt Size</label>
-                        <select name="tShirt" id="t-shirt" required>
+                        <select name="tShirt" id="t-shirt" required class="form-select">
                             <option value="">SELECT SIZE</option>
                             <option value="XXS">XXS</option>
                             <option value="XS">XS</option>
@@ -188,33 +188,37 @@
                             <option value="XXL">XXL</option>
                             <option value="CUSTOM">CUSTOM</option>
                         </select>
-                        <input type="text" name="custom" placeholder="please input a custom size" id="custom"
-                            disabled />
+                        <input type="text" name="custom" placeholder="please input a custom size" id="custom" disabled
+                            class="form-control" />
                     </div>
 
                     <!--tcolor - color field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="color">T-shirt Color</label>
-                        <input type="color" id="color" name="color" />
+                        <input type="color" id="color" name="color" class="form-control" />
                     </div>
 
                     <!--background check - file (upload) field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="background-check">Background Check</label>
-                        <input type="file" name="file" id="background-check" required accept=".docx" />
+                        <input type="file" name="file" id="background-check" required accept=".docx"
+                            class="form-control" />
                     </div>
 
                     <!--participating in - radio field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <strong>Participaiting In</strong><br />
 
-                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show" />
+                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show"
+                            class="form-check-input radio" />
                         <label for="fashion-show">Fashion Show</label>
 
-                        <input type="radio" name="participation" id="donation" required value="Donation" />
+                        <input type="radio" name="participation" id="donation" required value="Donation"
+                            class="form-check-input radio" />
                         <label for="donation">Donation</label>
 
-                        <input type="radio" name="participation" id="expectator" required value="Expectator" />
+                        <input type="radio" name="participation" id="expectator" required value="Expectator"
+                            class="form-check-input radio" />
                         <label for="expectator">Expectator</label>
 
                     </div>
@@ -223,13 +227,16 @@
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <strong>Time of Day</strong>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-morning">Morning</label>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="Afternoon" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="Afternoon"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-afternoon">Afternoon</label>
 
-                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening" />
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening"
+                            class="form-check-input checkbox" />
                         <label for="time-of-day-evening">Evening</label>
 
                     </div>
@@ -237,18 +244,19 @@
                     <!--comment - text area field -->
                     <div class="col-12">
                         <label for="about-you">Tell us about you</label> <br />
-                        <textarea name="aboutYou" id="about-you"></textarea>
+                        <textarea name="aboutYou" id="about-you" class="form-control"></textarea>
                     </div>
 
                     <!--Terms and conditions- checkbox (switch field)-->
-                    <div class="col-12">
-                        <input type="checkbox" name="terms" id="terms-and-conditions" value="yes" />
+                    <div class="col-12 form-check form-switch">
+                        <input type="checkbox" name="terms" id="terms-and-conditions" value="yes"
+                            class="form-check-input checkbox" />
                         <label for="terms-and-conditions">I Accept The Terms and Conditions</label>
                     </div>
 
                     <!--submit - submit field-->
                     <div class="col-12">
-                        <input type="submit" name="submit" value="Volunteer Now" />
+                        <input type="submit" name="submit" value="Volunteer Now" class="form-control" />
                     </div>
 
                 </div>
