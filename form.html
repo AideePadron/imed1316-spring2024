@@ -195,32 +195,54 @@
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                         <label for="color">T-shirt Color</label>
                         <input type="color" id="color" name="color" />
-
                     </div>
 
                     <!--background check - file (upload) field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Background Check</label>
+                        <label for="background-check">Background Check</label>
+                        <input type="file" name="file" id="background-check" required />
                     </div>
 
                     <!--participating in - radio field-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Participaiting In</label>
+                        <strong>Participaiting In</strong><br />
+
+                        <input type="radio" name="participation" id="fashion-show" required value="Fashion Show" />
+                        <label for="fashion-show">Fashion Show</label>
+
+                        <input type="radio" name="participation" id="donation" required value="Donation" />
+                        <label for="donation">Donation</label>
+
+                        <input type="radio" name="participation" id="expectator" required value="Expectator" />
+                        <label for="expectator">Expectator</label>
+
                     </div>
 
                     <!--time of day - checkbox field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Time of Day</label>
+                        <strong>Time of Day</strong>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-morning" required value="Morning" />
+                        <label for="time-of-day-morning">Morning</label>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-afternoon" required value="Afternoon" />
+                        <label for="time-of-day-afternoon">Afternoon</label>
+
+                        <input type="checkbox" name="timeOfDay" id="time-of-day-evening" required value="Evening" />
+                        <label for="time-of-day-evening">Evening</label>
+
                     </div>
 
                     <!--comment - text area field -->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Comments</label>
+                        <label for="about-you">Tell us about you</label> <br />
+                        <textarea name="aboutYou" id="about-you"></textarea>
                     </div>
 
                     <!--Terms and conditions- checkbox (switch field)-->
                     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                        <label for="">Terms and Conditions</label>
+                        <input type="checkbox" name="terms" id="terms-and-conditions" value="yes" />
+                        <label for="terms-and-conditions">I Accept The Terms and Conditions</label>
                     </div>
 
                     <!--submit - submit field-->
