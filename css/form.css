@@ -1,6 +1,7 @@
 @import "global.css";
 @import "main.css";
 
+/* encapsulates the whole form */
 .web-form {
     width: 75%;
     position: relative;
@@ -13,46 +14,55 @@
 
 }
 
+/* any div inside the whole form add space between fields*/
 .web-form div {
     margin-top: 10px;
 }
 
+/* age field */
 #age {
     width: 100px;
 }
 
+/* date field */
 #date {
     width: 150px;
 }
 
+/*  */
 #custom {
     margin-top: 5px;
     display: none;
 }
 
+/* increase size of TOD and Participating in  */
 .radio,
 .checkbox {
     width: 20px !important;
     height: 20px !important;
 }
 
+/*  switch size */
 #terms-and-conditions {
     width: 40px !important;
     height: 20px !important;
 }
 
+/* about you text box */
 #about-you {
     width: 70%;
     height: 200px;
 
 }
 
+/* submit button */
 .submit {
     border-color: var(--secondaryColor) !important;
     background-color: #ffffff;
     color: var(--secondaryColor) !important;
 }
 
+/* when hover on submit button */
 .submit:hover {
     background-color: #ffffff;
     color: #000000 !important;
