@@ -46,3 +46,9 @@
     margin-bottom: 20px;
 
 }
+
+.first-paragraph-img {
+    position: relative;
+    float: left;
+    padding-right: 18px;
+}
