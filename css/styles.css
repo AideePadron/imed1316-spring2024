@@ -89,3 +89,13 @@
         padding-right: 0px;
     }
 }
+
+.cropped {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border: 10px solid var(--dominantColor) !important;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+    margin: auto;
+}
