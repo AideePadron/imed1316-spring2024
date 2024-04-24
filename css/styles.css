@@ -29,3 +29,20 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* add icon link */
+
+.first-paragraph-div {
+    position: relative;
+    background-color: #fffffd;
+    color: var(--dominantColor) !important;
+    font-weight: bold;
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
