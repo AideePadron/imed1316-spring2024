@@ -60,3 +60,32 @@
         padding-right: 0px;
     }
 }
+
+.second-paragraph-div {
+    position: relative;
+    background-color: #fffffd;
+    color: var(--dominantColor) !important;
+    font-weight: bold;
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.first-paragraph-img {
+    position: relative;
+    float: right;
+    padding-left: 18px;
+}
+
+@media (max-width: 900px) {
+    .second-paragraph-img {
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+}
