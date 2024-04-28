@@ -49,14 +49,14 @@
 }
 
 .content-table tbody tr {
-    background-color: #f3f3f3 !important;
+    background-color: #cccccc !important;
 }
 
 
-.content-table tbody tr {
+.content-table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3 !important;
 }
 
-.content-table tbody tr {
-    background-color: #f3f3f3 !important;
+.content-table tbody tr:last-of-type {
+    background-color: var(--dominantColor) !important;
 }
