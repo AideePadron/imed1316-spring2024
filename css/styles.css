@@ -111,3 +111,13 @@
     color: #ffffff;
     border-radius: 0px;
 }
+
+.card {
+    margin: 15px;
+    height: 350px;
+
+}
+
+.card a {
+    color: #020230;
+}
