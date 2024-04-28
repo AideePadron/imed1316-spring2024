@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-/* add href link to icons under carousel  */
+/*  href link to icons under carousel  */
 .fa-row a {
     color: #ffffff;
     font-weight: bold;
@@ -92,7 +92,7 @@
     .second-paragraph-img {
         width: 100%;
         float: none;
-        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
