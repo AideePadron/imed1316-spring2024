@@ -1,3 +1,40 @@
+// A $( document ).ready() block.
+$(document).ready(function () {
+    //console.log("ready!");
+
+    $(".slider-for").slick({
+        centerMode: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: "40px",
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: "40px",
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+}); //document ready
+
+
+
+
+
+
+
 // init Isotope
 var $grid = $(".grid").isotope({
     itemSelector: ".element-item",
@@ -31,3 +68,5 @@ $(".button-group").each(function (i, buttonGroup) {
         $(this).addClass("is-checked");
     });
 });
+
+
