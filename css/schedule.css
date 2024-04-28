@@ -48,11 +48,15 @@
     border-bottom: 1px solid #dddddd;
 }
 
-.content-table tbody tr:nth-of-type(even) {
+.content-table tbody tr {
     background-color: #f3f3f3 !important;
 }
 
 
-.content-table tfoot tr:last-of-type {
-    border-bottom: 3px solid var(--dominantColor) !important;
+.content-table tbody tr {
+    background-color: #f3f3f3 !important;
+}
+
+.content-table tbody tr {
+    background-color: #f3f3f3 !important;
 }
